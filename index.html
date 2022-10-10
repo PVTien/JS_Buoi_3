@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h2 {
+        color: orange;
+      }
+      p {
+        font-weight: bold;
+      }
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; background-color: pink">
+      Bài tập JS buổi 13
+    </h1>
+
+    <div class="ex1">
+      <h2>Bài 1:</h2>
+      <input id="salaryPerDay" type="text" placeholder="Nhập lương một ngày" />
+      <input id="workingDay" type="text" placeholder="Số ngày làm" />
+      <button onclick="ex1()">Tính lương</button>
+      <p>Tổng lương: <span id="salary"></span></p>
+    </div>
+
+    <div class="ex2">
+      <h2>Bài 2:</h2>
+      <input id="n1" type="text" placeholder="Nhập số thứ 1" />
+      <input id="n2" type="text" placeholder="Nhập số thứ 2" />
+      <input id="n3" type="text" placeholder="Nhập số thứ 3" />
+      <input id="n4" type="text" placeholder="Nhập số thứ 4" />
+      <input id="n5" type="text" placeholder="Nhập số thứ 5" />
+      <button onclick="ex2()">Tính trung bình</button>
+      <p>Giá trị trung bình của 5 số: <span id="average"></span></p>
+    </div>
+
+    <div class="ex3">
+      <h2>Bài 3:</h2>
+      <input id="moneyUSD" type="text" placeholder="Nhập số tiền USD" />
+      <button onclick="ex3()">Quy đổi</button>
+      <p>Số tiền sau quy đổi (VND): <span id="moneyVND"></span></p>
+    </div>
+
+    <div class="ex4">
+      <h2>Bài 4:</h2>
+      <input id="CD" type="text" placeholder="Nhập chiều dài" />
+      <input id="CR" type="text" placeholder="Nhập chiều rộng" />
+      <button onclick="ex4()">Tính</button>
+      <p>Chu vi HCN: <span id="P"></span></p>
+      <p>Diện tích HCN: <span id="S"></span></p>
+    </div>
+
+    <div class="ex5">
+      <h2>Bài 5:</h2>
+      <input id="number" type="text" placeholder="Nhập số có 2 chữ số" />
+      <button onclick="ex5()">Tính tổng</button>
+      <p>Tổng 2 ký số: <span id="totalNumber"></span></p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
